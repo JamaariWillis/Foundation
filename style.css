@@ -184,7 +184,7 @@ a {
 
     .b1 {
         margin-right: 0px;
-        padding: 17px 27px;
+        padding: 17px 47px;
         color: white;
         background-color: #0f0f0f;
         border: 1px solid black;
@@ -194,11 +194,28 @@ a {
     
     .b2 {
         margin-left: 0px;
-        padding: 17px 37px;
+        padding: 17px 57px;
         background-color: transparent;
         border: 2px solid black;
         cursor: pointer;
+        color: black
        
         
+    }
+
+    .first-grid {
+        display: grid;
+        grid-template-columns: 90vw ;
+        grid-template-rows: 90px 40px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        padding-bottom: 90px;
+    
+        
+    }
+
+    .learn {
+        font-size: 14px;
     }
 }
