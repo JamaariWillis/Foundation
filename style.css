@@ -1,12 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .nav ul{
     border-bottom: 1px solid;
-    margin: auto;
     padding: 17px;
+    box-sizing: content-box;
 }
 .nav ul, li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -54,7 +61,7 @@ a {
     text-decoration: none !important;
 }
 
-.grid-container {
+.program-grid {
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 100px 200px 200px 200px ;
@@ -95,7 +102,7 @@ a {
     font-family: 'Noto sans';
 }
 
-.first-grid-container {
+.first-grid {
     display: grid;
     grid-template-columns: 100vw ;
     grid-template-rows: 90px 40px;
@@ -121,7 +128,7 @@ a {
 .intro-item2 {
     text-align: center;
     margin-bottom: 70px;
-    margin-right: px;
+    margin-left: 10px;
     font-size: 20px;
     font-weight: 100;
 }
@@ -147,3 +154,51 @@ a {
 }
 
 
+
+
+@media screen and (max-width: 700px) {
+
+
+    .program-grid {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(5, 1fr) ;
+        margin-top: 100px;
+        justify-content: center;
+        column-gap: 80px;
+        row-gap: 20px;
+    }
+
+    .i-1 {
+        grid-column: 1;
+    }
+
+    .button-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .b1 {
+        margin-right: 0px;
+        padding: 17px 27px;
+        color: white;
+        background-color: #0f0f0f;
+        border: 1px solid black;
+        cursor: pointer;
+        
+    }
+    
+    .b2 {
+        margin-left: 0px;
+        padding: 17px 37px;
+        background-color: transparent;
+        border: 2px solid black;
+        cursor: pointer;
+       
+        
+    }
+}
