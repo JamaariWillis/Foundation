@@ -135,6 +135,12 @@ padding-bottom: 50px;
     
 }
 
+.b1:hover {
+    background-color: transparent;
+    color:black;
+    transition: .2s;
+}
+
 .b2 {
     margin-left: 50px;
     padding: 17px 37px;
@@ -143,6 +149,13 @@ padding-bottom: 50px;
     cursor: pointer;
    
     
+}
+
+.b2:hover {
+    background-color: #0f0f0f;
+    color: white;
+    transition: .2s;
+   
 }
 
 a {
@@ -168,7 +181,29 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
+}
+
+.hover {
+    display: none;
+}
+
+.grid-item:hover {
+    background-color: transparent;
+    border: 3px solid #0f0f0f;
+    color:black;
+}
+
+.grid-item:hover .hover {
+    display: unset;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.grid-item:hover .hide {
+    display: none;
 }
 
 .i-1 {
@@ -176,9 +211,16 @@ a {
     font-size: 29px;
     background-color: transparent;
     color: #0f0f0f;
-    
     border-top: 1px solid black;
     padding: 59px;
+   
+}
+
+.i-1:hover {
+    background-color: transparent;
+    color: #0f0f0f;
+    border-top: 1px solid black;
+    border-bottom: none;
    
 }
 
