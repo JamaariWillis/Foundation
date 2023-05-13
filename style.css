@@ -4,6 +4,94 @@
     padding: 0;
 }
 
+/*mission section*/
+
+.mission-section {
+    padding-bottom: 100px;
+    padding: 0px 100px 100px 100px
+}
+
+.mission-h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 7vh;
+    border-bottom: 3px solid;
+    width: 200px;
+    padding-bottom: 25px;
+}
+
+.mission-p {
+    margin-top: 7vh;
+    font-size: 22px;
+    line-height: 48px;
+    padding: 0px 40px;
+}
+
+.help-line {
+    width: 91vw;
+    border-top: 1px solid black;
+    margin: auto;
+}
+
+.help {
+padding-bottom: 50px;
+}
+
+.want-to-help {
+    padding-top: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 80px;
+    
+}
+
+.help-h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.help-p1 {
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 100px;
+}
+
+.help-grid {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 25vw 25vw 25vw;
+}
+
+.grid-item-help {
+    align-content: center;
+    justify-content: center;
+}
+
+.help-item {
+    text-align: center;
+    width: 100%;
+}
+
+.help-item button {
+    padding: 22px 70px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    cursor: pointer;
+}
+
+.help-item button:hover {
+    background-color: transparent;
+    color: black;
+
+}
+
+
+
+/*---------------*/
+
 .nav ul{
     border-bottom: 1px solid;
     padding: 17px;
@@ -159,6 +247,38 @@ a {
 @media screen and (max-width: 700px) {
 
 
+
+
+    /**/
+
+    .mission-section {
+        padding-bottom: 100px;
+        padding: 0px 10px 100px 10px
+    }
+
+    .help-grid {
+        padding-top: 90px;
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    
+    
+    .help-item button {
+        padding: 22px 70px;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .help-item button:hover {
+        background-color: transparent;
+        color: black;
+    
+    }
+    /**/
     .program-grid {
         display: grid;
         grid-template-columns: 100vw;
