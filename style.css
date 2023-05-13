@@ -194,6 +194,7 @@ a {
     background-color: transparent;
     border: 3px solid #0f0f0f;
     color:black;
+    transition: .2s;
 }
 
 .grid-item:hover .hover {
@@ -201,6 +202,7 @@ a {
     color: black;
     font-size: 20px;
     font-weight: 600;
+    transition: .2s;
 }
 
 .grid-item:hover .hide {
