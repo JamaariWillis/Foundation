@@ -85,6 +85,7 @@ padding-bottom: 50px;
 .help-item button:hover {
     background-color: transparent;
     color: black;
+    transition: .2s;
 
 }
 
@@ -294,14 +295,18 @@ a {
     /**/
 
     .mission-section {
-        padding-bottom: 100px;
-        padding: 0px 10px 100px 10px
+        padding: 0px .1px 100px .1px;
+    }
+
+    .mission-p {
+        font-size: 19px;
+        line-height: 35px;
     }
 
     .help-grid {
         padding-top: 90px;
         display: grid;
-        grid-template-columns: 50%;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         gap: 20px;
     }
