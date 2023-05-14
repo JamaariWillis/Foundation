@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const app = express();
 app.use(express.urlencoded({ extended: false }));
 
-app.post('/submit', (req, res) => {
+app.post('express.js', (req, res) => {
   const { name, email, reason, options } = req.body;
 
   // Create a transporter to send emails (configure with your email service)
